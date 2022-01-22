@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
+
+.contactpage
+{
+    margin-top: 100px;
+}
+.contact-heading-font {
+  font-size: 55px;
+  font-weight: 900;
+  /* font-family: 'Ubuntu'; */
+}
+.form-grid {
+  display: flex;
+  flex-direction: column;
+}
+.form-input-margin {
+  margin:10px;
+}
+.form-input-firstline
+{
+    width: 45%;
+}
+.form-input-otherline
+{
+    width: 93%;
+}
+.form-light {
+  max-width: 50vw;
+  margin-top: 70px;
+}
+.form-dark {
+  max-width: 50vw;
+  margin-top: 70px;
+}
+.form-light::before {
+  content: '<form>';
+  font-family: 'Fasthand', Helvetica, sans-serif;
+  color: lightgray;
+  font-size: 18px;
+  font-weight: 100;
+  font-style: italic;
+  opacity: 1;
+  position: absolute;
+  margin-top: -2rem;
+  margin-left: -1rem;
+}
+.form-light::after {
+  content: '</form>';
+  font-family: 'Fasthand', Helvetica, sans-serif;
+  color: lightgray;
+  font-size: 18px;
+  font-weight: 100;
+  font-style: italic;
+  opacity: 1;
+  position: absolute;
+  display: block;
+  margin-top: -1rem;
+  margin-left: -1rem;
+}
+.form-dark::before {
+  content: '<form>';
+  font-family: 'Fasthand', Helvetica, sans-serif;
+  color: #515152;
+  font-size: 18px;
+  font-weight: 100;
+  font-style: italic;
+  opacity: 1;
+  position: absolute;
+  margin-top: -2rem;
+  margin-left: -1rem;
+}
+.form-dark::after {
+  content: '</form>';
+  display: block;
+  font-family: 'Fasthand', Helvetica, sans-serif;
+  color: #515152;
+  font-size: 18px;
+  font-weight: 100;
+  font-style: italic;
+  opacity: 1;
+  position: absolute;
+  margin-top: 0rem;
+  margin-left: -1rem;
+}
+
+input[type='text']:focus {
+  border-color: #08fdd8;
+}
+input[type='text'] {
+  border: 0;
+  box-sizing: border-box;
+  height: 50px;
+  padding: 0 20px;
+  font-size: 16px;
+  background-color: #2b2b2b;
+  color: aliceblue;
+  outline: none;
+}
+input[type='email']:focus {
+  border-color: #08fdd8;
+}
+input[type='email'] {
+  border: 0;
+  box-sizing: border-box;
+  height: 50px;
+  padding: 0 20px;
+  font-size: 16px;
+  background-color: #2b2b2b;
+  color: aliceblue;
+  outline: none;
+}

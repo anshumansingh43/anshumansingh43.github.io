@@ -1,0 +1,102 @@
+@media (min-width: 768px) {
+  .frame {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: fit-content;
+
+    transition: transform 0.2s;
+  }
+  .framecolor-light {
+    background-color: white;
+    box-shadow: 0 0 20px #dfdfdf;
+  }
+  .framecolor-dark {
+    background-color: #2B2B2A;
+    box-shadow: 0 0 20px black;
+    border: solid 1px gray;
+  }
+  .framecolor-light:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+    /* width: 440px; */
+    /* height: 495px; */
+  }
+  .framecolor-dark:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+    border: solid 1px #08fdd8;
+    box-shadow: 0 0 7px #FD2155;
+    /* width: 440px; */
+    /* height: 495px; */
+  }
+  .titlecolor-light
+  {
+
+  }
+  .titlecolor-dark
+  {
+    color: white;
+  }
+  .fontcolor-light
+  {
+
+  }
+  .fontcolor-dark
+  {
+    color: lightgray;
+  }
+}
+
+@media (max-width: 1320px) {
+  .frame {
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    max-width: 600px;
+    height: fit-content;
+    background-color: white;
+    box-shadow: 0 0 20px #dfdfdf;
+    margin: auto;
+    transition: transform 0.2s;
+  }
+  .framecolor-light {
+    background-color: white;
+    box-shadow: 0 0 20px #dfdfdf;
+  }
+  .framecolor-dark {
+    background-color: #2B2B2A;
+    box-shadow: 0 0 20px black;
+    border: solid 1px gray;
+  }
+  .framecolor-light:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+    /* width: 440px; */
+    /* height: 495px; */
+  }
+  .framecolor-dark:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+    border: solid 1px #08fdd8;
+    box-shadow: 0 0 7px #FD2155;
+    /* width: 440px; */
+    /* height: 495px; */
+  }
+  .titlecolor-light
+  {
+
+  }
+  .titlecolor-dark
+  {
+    color: white;
+  }
+  .fontcolor-light
+  {
+
+  }
+  .fontcolor-dark
+  {
+    color: #8d8d8d;
+  }
+}
