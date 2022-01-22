@@ -30,13 +30,8 @@ const Skills = ({ setPage,darkmode }) => {
                         </div>
                         <div className={paragraph}>
                             <p>
-                                fasohfiojsdklfhiosadfjsdfja;sidfhas;;d kdskfhsd hofihdslkfhid ;slahfi;ksl;jdhjadl;dj
-
-                                fasohfiojsdklfhiosadfjsdfja;sidfhas;;d kdskfhsd hofihdslkfhid ;slahfi;ksl;jdhjadl;dj
-                                fasohfiojsdklfhiosadfjsdfja;sidfhas;;d kdskfhsd hofihdslkfhid ;slahfi;ksl;jdhjadl;dj
-                                fasohfiojsdklfhiosadfjsdfja;sidfhas;;d kdskfhsd hofihdslkfhid ;slahfi;ksl;jdhjadl;dj
-                                fasohfiojsdklfhiosadfjsdfja;sidfhas;;d kdskfhsd hofihdslkfhid ;slahfi;ksl;jdhjadl;dj
-                                fasohfiojsdklfhiosadfjsdfja;sidfhas;;d kdskfhsd hofihdslkfhid ;slahfi;ksl;jdhjadl;dj
+                               Over the years i have aquired many skills. But the ones that define me are java javascript .
+                               I'm a front end developer mainly, but i also work on full stack with companies.
                             </p>
                             <p>
                                 aguohdfa pii ejklao dkdvoiasofds lp jflksdvs djls ioadsf dsklodas sd se klsdj dsi lfkdsj
