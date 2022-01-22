@@ -41,7 +41,7 @@ const Contact = ({ setPage, darkmode }) => {
 
                             </div>
                             <div>
-                                <input className='form-input-margin form-input-otherline' placeholder='Message' type='text'
+                                <textarea className='form-input-margin form-input-otherline' placeholder='Message'
                                     value={msg} onChange={(e) => setMsg(e.target.value)} style={{ height: "200px" }} />
 
                             </div>
