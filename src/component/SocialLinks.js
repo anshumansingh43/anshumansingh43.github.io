@@ -9,24 +9,24 @@ const SocialLinks = ({darkmode}) => {
 
     return (
         <div className="sociallinkwrapper">
-            <a href="https://www.linkedin.com/in/ironanshuman/" target="_blank" rel="noreferrer">
-            <FontAwesomeIcon className={social_link_effect} id="linkedinIcon" icon={faLinkedin} size="lg" />
+            <a href="https://www.linkedin.com/in/ironanshuman/" id="linkedinIcon" target="_blank" rel="noreferrer">
+            <FontAwesomeIcon className={social_link_effect}  icon={faLinkedin} size="lg" />
             </a>
-            <a href="https://github.com/ironanshumantoo/" target="_blank" rel="noreferrer">
-            <FontAwesomeIcon className={social_link_effect} id="githubIcon" icon={faGithub} size="lg" />
+            <a href="https://github.com/ironanshumantoo/" id="githubIcon" target="_blank" rel="noreferrer">
+            <FontAwesomeIcon className={social_link_effect}  icon={faGithub} size="lg" />
             </a>
             {/* <img src={require("../images/leetcode.png")} alt="anshumna" id="leetcodeIcon" className={social_link_effect} style={{ width: "20px", height: "20px" }} /> */}
-            <a href="mailto:imanshuman43@gmail.com" target="_blank" rel="noreferrer">
-            <FontAwesomeIcon className={social_link_effect} id="mailIcon" icon={faEnvelope} size="lg" />
+            <a href="mailto:imanshuman43@gmail.com" id="mailIcon" target="_blank" rel="noreferrer">
+            <FontAwesomeIcon className={social_link_effect}  icon={faEnvelope} size="lg" />
             </a>
-            <a href="https://www.youtube.com/cubed" target="_blank" rel="noreferrer">
-            <FontAwesomeIcon className={social_link_effect} id="youtubeIcon" icon={faYoutube} size="lg" />
+            <a href="https://www.youtube.com/cubed" id="youtubeIcon" target="_blank" rel="noreferrer">
+            <FontAwesomeIcon className={social_link_effect}  icon={faYoutube} size="lg" />
             </a>
-            <a href="https://www.instagram.com/anshuman_s_i_n_g_h_/" target="_blank" rel="noreferrer">
-            <FontAwesomeIcon className={social_link_effect} id="instagramIcon" icon={faInstagram} size="lg" />
+            <a href="https://www.instagram.com/anshuman_s_i_n_g_h_/" id="instagramIcon" target="_blank" rel="noreferrer">
+            <FontAwesomeIcon className={social_link_effect}  icon={faInstagram} size="lg" />
             </a>
-            <a href="https://www.worldcubeassociation.org/persons/2014SING04" target="_blank" rel="noreferrer">
-            <FontAwesomeIcon className={social_link_effect} id="wcaIcon" icon={faCube} size="lg" />
+            <a href="https://www.worldcubeassociation.org/persons/2014SING04"id="wcaIcon" target="_blank" rel="noreferrer">
+            <FontAwesomeIcon className={social_link_effect}  icon={faCube} size="lg" />
             </a>
             {/* <a href="https://www.worldcubeassociation.org/persons/2014SING04" target="_blank" rel="noreferrer" id="wcaIcon" className={social_link_effect}>
                 <img src={require("../images/wca.png")} alt="anshumna"  style={{ width: "18px", height: "18px" }} />

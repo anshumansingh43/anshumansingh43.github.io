@@ -6,7 +6,16 @@
     flex-direction: column;
     justify-content: center;
     padding-left: 120px;
-    min-height: 100vh;
+    margin-top: 80px;
+  }
+  .tagtop-til{
+    margin-left: 400px;
+    top: 0;
+  }
+  .tagbottom-til
+  {
+    margin-left: 400px;
+    bottom: 0;
   }
   .intro-paragraph-light {
     font-family: 'Ubuntu';
@@ -73,7 +82,115 @@
     margin-left: -1rem;
   }
 }
+/****************************************************************************************/
 @media (max-width: 1080px) and (min-width: 768px) {
+  .pagewrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 120px;
+    margin-top: 40px;
+  }
+  .tagtop-til{
+    margin-top: 70px;
+  }
+  .tagbottom-til
+  {
+    bottom: 0;
+  }
+  .intro-paragraph-light {
+    font-family: 'Ubuntu';
+    font-size: 18px;
+    color: gray;
+    max-width: 80vw;
+  }
+  .intro-paragraph-dark {
+    font-family: 'Ubuntu';
+    font-size: 18px;
+    color: #8d8d8d;
+    max-width: 80vw;
+  }
+  .intro-paragraph-light::before {
+    content: '</p>';
+    display: block;
+    font-family: 'Fasthand', Helvetica, sans-serif;
+    color: lightgray;
+    font-size: 18px;
+    font-weight: 100;
+    font-style: italic;
+    opacity: 1;
+    position: absolute;
+    margin-top: -1.4rem;
+    margin-left: -1rem;
+  }
+  .intro-paragraph-light::after {
+    content: '</p>';
+    display: block;
+    font-family: 'Fasthand', Helvetica, sans-serif;
+    color: lightgray;
+    font-size: 18px;
+    font-weight: 100;
+    font-style: italic;
+    opacity: 1;
+    position: absolute;
+    margin-top: 0rem;
+    margin-left: -1rem;
+  }
+  .intro-paragraph-dark::before {
+    content: '</p>';
+    display: block;
+    font-family: 'Fasthand', Helvetica, sans-serif;
+    color: #515152;
+    font-size: 18px;
+    font-weight: 100;
+    font-style: italic;
+    opacity: 1;
+    position: absolute;
+    margin-top: -1.4rem;
+    margin-left: -1rem;
+  }
+  .intro-paragraph-dark::after {
+    content: '</p>';
+    display: block;
+    font-family: 'Fasthand', Helvetica, sans-serif;
+    color: #515152;
+    font-size: 18px;
+    font-weight: 100;
+    font-style: italic;
+    opacity: 1;
+    position: absolute;
+    margin-bottom: rem;
+    margin-left: -1rem;
+  }
 }
 @media (max-width: 768px) {
+  .pagewrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10vw;
+    margin-top: 70px;
+
+  }
+  .tagtop-til{
+    margin-top: 70px;
+  }
+  .tagbottom-til
+  {
+    bottom: 0;
+  }
+  .intro-paragraph-light {
+    font-family: 'Ubuntu';
+    font-size: 18px;
+    color: gray;
+    max-width: 80vw;
+  }
+  .intro-paragraph-dark {
+    font-family: 'Ubuntu';
+    font-size: 18px;
+    color: #8d8d8d;
+    max-width: 80vw;
+  }
+  
+ 
 }

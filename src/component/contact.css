@@ -1,124 +1,501 @@
 @import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
 
-.contactpage
-{
+@media (min-width: 1080px) {
+  .contactpage {
     margin-top: 100px;
-}
-.contact-heading-font {
-  font-size: 55px;
-  font-weight: 900;
-  /* font-family: 'Ubuntu'; */
-}
-.form-grid {
-  display: flex;
-  flex-direction: column;
-}
-.form-input-margin {
-  margin:10px;
-}
-.form-input-firstline
-{
+  }
+  .tagtop-contact{
+    margin-left: 400px;
+    margin-top: 0;
+  }
+  .tagbottom-contact {
+    margin-left: 400px;
+    margin-top: 30px;
+  }
+  .contact-heading-font {
+    font-size: 55px;
+    font-weight: 900;
+    /* font-family: 'Ubuntu'; */
+  }
+  .form-grid {
+    display: flex;
+    flex-direction: column;
+  }
+  .form-input-margin {
+    margin: 10px;
+  }
+  .form-input-firstline {
     width: 45%;
-}
-.form-input-otherline
-{
+  }
+  .form-input-otherline {
     width: 93%;
-}
-.form-light {
-  max-width: 50vw;
-  margin-top: 70px;
-}
-.form-dark {
-  max-width: 50vw;
-  margin-top: 70px;
-}
-.form-light::before {
-  content: '<form>';
-  font-family: 'Fasthand', Helvetica, sans-serif;
-  color: lightgray;
-  font-size: 18px;
-  font-weight: 100;
-  font-style: italic;
-  opacity: 1;
-  position: absolute;
-  margin-top: -2rem;
-  margin-left: -1rem;
-}
-.form-light::after {
-  content: '</form>';
-  font-family: 'Fasthand', Helvetica, sans-serif;
-  color: lightgray;
-  font-size: 18px;
-  font-weight: 100;
-  font-style: italic;
-  opacity: 1;
-  position: absolute;
-  display: block;
-  margin-top: -1rem;
-  margin-left: -1rem;
-}
-.form-dark::before {
-  content: '<form>';
-  font-family: 'Fasthand', Helvetica, sans-serif;
-  color: #515152;
-  font-size: 18px;
-  font-weight: 100;
-  font-style: italic;
-  opacity: 1;
-  position: absolute;
-  margin-top: -2rem;
-  margin-left: -1rem;
-}
-.form-dark::after {
-  content: '</form>';
-  display: block;
-  font-family: 'Fasthand', Helvetica, sans-serif;
-  color: #515152;
-  font-size: 18px;
-  font-weight: 100;
-  font-style: italic;
-  opacity: 1;
-  position: absolute;
-  margin-top: 0rem;
-  margin-left: -1rem;
+  }
+  .form-light {
+    max-width: 50vw;
+    margin-top: 70px;
+  }
+  .form-dark {
+    max-width: 50vw;
+    margin-top: 70px;
+  }
+  .form-light::before {
+    content: '<form>';
+    font-family: 'Fasthand', Helvetica, sans-serif;
+    color: lightgray;
+    font-size: 18px;
+    font-weight: 100;
+    font-style: italic;
+    opacity: 1;
+    position: absolute;
+    margin-top: -2rem;
+    margin-left: -1rem;
+  }
+  .form-light::after {
+    content: '</form>';
+    font-family: 'Fasthand', Helvetica, sans-serif;
+    color: lightgray;
+    font-size: 18px;
+    font-weight: 100;
+    font-style: italic;
+    opacity: 1;
+    position: absolute;
+    display: block;
+    margin-top: -1rem;
+    margin-left: -1rem;
+  }
+  .form-dark::before {
+    content: '<form>';
+    font-family: 'Fasthand', Helvetica, sans-serif;
+    color: #515152;
+    font-size: 18px;
+    font-weight: 100;
+    font-style: italic;
+    opacity: 1;
+    position: absolute;
+    margin-top: -2rem;
+    margin-left: -1rem;
+  }
+  .form-dark::after {
+    content: '</form>';
+    display: block;
+    font-family: 'Fasthand', Helvetica, sans-serif;
+    color: #515152;
+    font-size: 18px;
+    font-weight: 100;
+    font-style: italic;
+    opacity: 1;
+    position: absolute;
+    margin-top: 0rem;
+    margin-left: -1rem;
+  }
+  .input-text-light
+  {
+    border: 0;
+    box-sizing: border-box;
+    height: 50px;
+    padding: 0 20px;
+    font-size: 16px;
+    background-color: lightgray;
+    color: black;
+    outline: none;
+    font-family: 'Ubuntu';
+  }
+  .input-text-light:focus
+  {
+    border-color:black;
+    
+  }
+  .input-text-dark
+  {
+    border: 0;
+    box-sizing: border-box;
+    height: 50px;
+    padding: 0 20px;
+    font-size: 16px;
+    background-color: #2b2b2b;
+    color: aliceblue;
+    outline: none;
+    font-family: 'Ubuntu';
+  }
+  .input-text-dark:focus
+  {
+    border-color: #08fdd8;
+    
+  }
+  /* input[type='text']:focus {
+    border-color: #08fdd8;
+  }
+  input[type='text'] {
+    border: 0;
+    box-sizing: border-box;
+    height: 50px;
+    padding: 0 20px;
+    font-size: 16px;
+    background-color: #2b2b2b;
+    color: aliceblue;
+    outline: none;
+  }
+  input[type='email']:focus {
+    border-color: #08fdd8;
+  }
+  input[type='email'] {
+    border: 0;
+    box-sizing: border-box;
+    height: 50px;
+    padding: 0 20px;
+    font-size: 16px;
+    background-color: #2b2b2b;
+    color: aliceblue;
+    outline: none;
+  } */
+  /* textarea:focus {
+    border-color: #08fdd8;
+  }
+  textarea {
+    border: 0;
+    box-sizing: border-box;
+    padding: 20px 20px;
+    font-size: 16px;
+    background-color: #2b2b2b;
+    color: aliceblue;
+    outline: none;
+    font-family: 'Ubuntu';
+  } */
+  .button-light {
+    background-color: white;
+    border: none;
+    margin: 10px 5%;
+    align-self: flex-end;
+    padding: 10px 20px;
+    width: fit-content;
+    font-size: large;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  .button-dark {
+    background-color: #2b2b2b;
+    color: #08fdd8;
+    border: none;
+    margin: 10px 5%;
+    align-self: flex-end;
+    padding: 10px 20px;
+    width: fit-content;
+    font-size: large;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  .button-light:hover {
+    background-color: gray;
+    color: black;
+  }
+
+  .button-dark:hover {
+    background-color: #08fdd8;
+    color: black;
+  }
 }
 
-input[type='text']:focus {
-  border-color: #08fdd8;
+@media (max-width:1080px) and (min-width: 768px)  {
+  .contactpage {
+    margin-top: 70px;
+    padding-left: 10vw;
+  }
+  .tagtop-contact{
+    margin-top: 70px;
+  }
+  .tagbottom-contact {
+    margin-top: 30px;
+  }
+  .contact-heading-font {
+    font-size: 55px;
+    font-weight: 900;
+    /* font-family: 'Ubuntu'; */
+  }
+  .form-grid {
+    display: flex;
+    flex-direction: column;
+  }
+  .form-input-margin {
+    margin: 10px;
+  }
+  .form-input-firstline {
+    width: 45%;
+  }
+  .form-input-otherline {
+    width: 93%;
+  }
+  .form-light {
+    max-width: 80vw;
+    margin-top: 70px;
+  }
+  .form-dark {
+    max-width: 80vw;
+    margin-top: 70px;
+  }
+  .form-light::before {
+    content: '<form>';
+    font-family: 'Fasthand', Helvetica, sans-serif;
+    color: lightgray;
+    font-size: 18px;
+    font-weight: 100;
+    font-style: italic;
+    opacity: 1;
+    position: absolute;
+    margin-top: -2rem;
+    margin-left: -1rem;
+  }
+  .form-light::after {
+    content: '</form>';
+    font-family: 'Fasthand', Helvetica, sans-serif;
+    color: lightgray;
+    font-size: 18px;
+    font-weight: 100;
+    font-style: italic;
+    opacity: 1;
+    position: absolute;
+    display: block;
+    margin-top: -1rem;
+    margin-left: -1rem;
+  }
+  .form-dark::before {
+    content: '<form>';
+    font-family: 'Fasthand', Helvetica, sans-serif;
+    color: #515152;
+    font-size: 18px;
+    font-weight: 100;
+    font-style: italic;
+    opacity: 1;
+    position: absolute;
+    margin-top: -2rem;
+    margin-left: -1rem;
+  }
+  .form-dark::after {
+    content: '</form>';
+    display: block;
+    font-family: 'Fasthand', Helvetica, sans-serif;
+    color: #515152;
+    font-size: 18px;
+    font-weight: 100;
+    font-style: italic;
+    opacity: 1;
+    position: absolute;
+    margin-top: 0rem;
+    margin-left: -1rem;
+  }
+
+  .input-text-light
+  {
+    border: 0;
+    box-sizing: border-box;
+    height: 50px;
+    padding: 0 20px;
+    font-size: 16px;
+    background-color: lightgray;
+    color: black;
+    outline: none;
+    font-family: 'Ubuntu';
+  }
+  .input-text-light:focus
+  {
+    border-color:black;
+    
+  }
+  .input-text-dark
+  {
+    border: 0;
+    box-sizing: border-box;
+    height: 50px;
+    padding: 0 20px;
+    font-size: 16px;
+    background-color: #2b2b2b;
+    color: aliceblue;
+    outline: none;
+    font-family: 'Ubuntu';
+
+  }
+  .input-text-dark:focus
+  {
+    border-color: #08fdd8;
+    
+  }
+  .button-light {
+    background-color: white;
+    border: none;
+    margin: 10px 5%;
+    align-self: flex-end;
+    padding: 10px 20px;
+    width: fit-content;
+    font-size: large;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  .button-dark {
+    background-color: #2b2b2b;
+    color: #08fdd8;
+    border: none;
+    margin: 10px 5%;
+    align-self: flex-end;
+    padding: 10px 20px;
+    width: fit-content;
+    font-size: large;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  .button-light:hover {
+    background-color: gray;
+    color: black;
+  }
+
+  .button-dark:hover {
+    background-color: #08fdd8;
+    color: black;
+  }
 }
-input[type='text'] {
-  border: 0;
-  box-sizing: border-box;
-  height: 50px;
-  padding: 0 20px;
-  font-size: 16px;
-  background-color: #2b2b2b;
-  color: aliceblue;
-  outline: none;
-}
-input[type='email']:focus {
-  border-color: #08fdd8;
-}
-input[type='email'] {
-  border: 0;
-  box-sizing: border-box;
-  height: 50px;
-  padding: 0 20px;
-  font-size: 16px;
-  background-color: #2b2b2b;
-  color: aliceblue;
-  outline: none;
-}
-textarea:focus {
-  border-color: #08fdd8;
-}
-textarea{
-  border: 0;
-  box-sizing: border-box;
-  padding: 20px 20px;
-  font-size: 16px;
-  background-color: #2b2b2b;
-  color: aliceblue;
-  outline: none;
-  font-family: 'Ubuntu';
+
+@media ( max-width:768px)
+{
+  .contactpage {
+    margin-top: 70px;
+    padding-left: 10vw;
+  }
+  .tagtop-contact{
+    margin-top: 70px;
+  }
+  .tagbottom-contact {
+    margin-top: 30px;
+  }
+  .contact-heading-font {
+    font-size: 55px;
+    font-weight: 900;
+    /* font-family: 'Ubuntu'; */
+  }
+  .form-grid {
+    display: flex;
+    flex-direction: column;
+  }
+  .form-input-margin {
+    margin: 10px;
+  }
+  .form-input-firstline {
+    width: 93%;
+  }
+  .form-input-otherline {
+    width: 93%;
+  }
+  .form-light {
+    max-width: 80vw;
+    margin-top: 70px;
+  }
+  .form-dark {
+    max-width: 80vw;
+    margin-top: 70px;
+  }
+
+  .input-text-light
+  {
+    border: 0;
+    box-sizing: border-box;
+    height: 50px;
+    padding: 0 20px;
+    font-size: 16px;
+    background-color: lightgray;
+    color: black;
+    outline: none;
+    font-family: 'Ubuntu';
+  }
+  .input-text-light:focus
+  {
+    border-color:black;
+    
+  }
+  .input-text-dark
+  {
+    border: 0;
+    box-sizing: border-box;
+    height: 50px;
+    padding: 0 20px;
+    font-size: 16px;
+    background-color: #2b2b2b;
+    color: aliceblue;
+    outline: none;
+    font-family: 'Ubuntu';
+
+  }
+  .input-text-dark:focus
+  {
+    border-color: #08fdd8;
+    
+  }
+  
+  /* input[type='text']:focus {
+    border-color: #08fdd8;
+  } */
+  /* input[type='text'] {
+    border: 0;
+    box-sizing: border-box;
+    height: 50px;
+    padding: 0 20px;
+    font-size: 16px;
+    background-color: #2b2b2b;
+    color: aliceblue;
+    outline: none;
+  } */
+  /* input[type='email']:focus {
+    border-color: #08fdd8;
+  }
+  input[type='email'] {
+    border: 0;
+    box-sizing: border-box;
+    height: 50px;
+    padding: 0 20px;
+    font-size: 16px;
+    background-color: #2b2b2b;
+    color: aliceblue;
+    outline: none;
+  } */
+  /* textarea:focus {
+    border-color: #08fdd8;
+  }
+  textarea {
+    border: 0;
+    box-sizing: border-box;
+    padding: 20px 20px;
+    font-size: 16px;
+    background-color: #2b2b2b;
+    color: aliceblue;
+    outline: none;
+    font-family: 'Ubuntu';
+  } */
+  .button-light {
+    background-color: white;
+    border: none;
+    margin: 10px 5%;
+    align-self: flex-end;
+    padding: 10px 20px;
+    width: fit-content;
+    font-size: large;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  .button-dark {
+    background-color: #2b2b2b;
+    color: #08fdd8;
+    border: none;
+    margin: 10px 5%;
+    align-self: flex-end;
+    padding: 10px 20px;
+    width: fit-content;
+    font-size: large;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  .button-light:hover {
+    background-color: gray;
+    color: black;
+  }
+
+  .button-dark:hover {
+    background-color: #08fdd8;
+    color: black;
+  }
 }
