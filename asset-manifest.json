@@ -1,8 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.e2645b57.css",
-    "main.js": "/static/js/main.84e1da81.js",
+    "main.css": "/static/css/main.33995acc.css",
+    "main.js": "/static/js/main.39194897.js",
     "static/js/787.86e70ff7.chunk.js": "/static/js/787.86e70ff7.chunk.js",
+    "static/media/projectImage-HGS.png": "/static/media/projectImage-HGS.c284cb33e27cab92dac7.png",
+    "static/media/projectImage-covidVisualizer.png": "/static/media/projectImage-covidVisualizer.7f731f885978f3367392.png",
     "static/media/art4.jpg": "/static/media/art4.b7370d64ccedb629002b.jpg",
     "static/media/cv_sde_g_lcode.pdf": "/static/media/cv_sde_g_lcode.ff9cc0f5c0772efa8117.pdf",
     "static/media/art2.jpg": "/static/media/art2.d00db866e871c3d67572.jpg",
@@ -10,12 +12,12 @@
     "static/media/art3.jpg": "/static/media/art3.19d47e5ea4e3e43d40cc.jpg",
     "static/media/profile.jpg": "/static/media/profile.be9b0db48ad25e660d6b.jpg",
     "index.html": "/index.html",
-    "main.e2645b57.css.map": "/static/css/main.e2645b57.css.map",
-    "main.84e1da81.js.map": "/static/js/main.84e1da81.js.map",
+    "main.33995acc.css.map": "/static/css/main.33995acc.css.map",
+    "main.39194897.js.map": "/static/js/main.39194897.js.map",
     "787.86e70ff7.chunk.js.map": "/static/js/787.86e70ff7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e2645b57.css",
-    "static/js/main.84e1da81.js"
+    "static/css/main.33995acc.css",
+    "static/js/main.39194897.js"
   ]
 }
