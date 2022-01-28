@@ -1,7 +1,7 @@
 import { Box } from "@mui/material"
 import './projectframe.css'
 
-const ProjectFrame = ({ imageurl, title, des, projectlink, technologies,description,darkmode }) => {
+const ProjectFrame = ({ imageurl, title, des, projectlink, technologies,description,darkmode,status }) => {
 
     var frame = darkmode?'frame framecolor-dark':'frame framecolor-light'
     var fontcolor = darkmode?'fontcolor-dark':'fontcolor-light'
@@ -23,8 +23,8 @@ const ProjectFrame = ({ imageurl, title, des, projectlink, technologies,descript
                     ))
                 }
                 <hr style={{width:"100%",opacity:"0.4"}}></hr>
-                <span className={fontcolor}>Tech: {technologies}</span>
-                <span className={fontcolor}>{projectlink}</span>
+                <span className={fontcolor} >    Tech: {technologies}</span>
+                <span className={fontcolor} >    {projectlink}</span>
 
             </span>
         </span>

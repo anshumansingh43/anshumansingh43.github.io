@@ -1,4 +1,3 @@
-import React, { useState } from 'react'
 import './home.css'
 import SocialLinks from './SocialLinks'
 
@@ -13,7 +12,7 @@ const Home = ({ setPage, darkmode }) => {
                 <div >{"<html>"}</div>
                 <div className='htmltagpadding'>{"<body>"}</div>
             </div>
-
+            
             <div className={darkmode === true ? 'Homepage-dark' : 'Homepage-light'}>
                 <div className='leftmargin'>
 
@@ -23,6 +22,7 @@ const Home = ({ setPage, darkmode }) => {
                         <span className={darkmode===true?'avatar-dark':'avatar-light' }>
                             <img src={require('../images/profile.jpg')} className='avatarImage' alt="myimage" />
                         </span>
+  
                         <span className="details">
                             <span className={darkmode?'profilename-dark profilename':'profilename-light profilename'}>
                                 ANSHUMAN SINGH
@@ -30,7 +30,7 @@ const Home = ({ setPage, darkmode }) => {
                             {/* <span className='otherprofilecontent' style={{ maxWidth: "300px", fontWeight: "500", fontSize: "20px", marginBottom: '19px' }}>Founder: FITNIT</span> */}
 
                             {/* <span className={htmltagdesign>'>{"<p>"}</span> */}
-                            <span className={otherprofilecontent} >I am a problem solver, software developer with high attention to detail. I have a passion for building products that can be used by masses.</span>
+                            <span className={otherprofilecontent} >I am a problem solver, a passionate software engineer with high attention to detail, not shy of learning new technologies. I have a passion for building products that impact the masses.</span>
                             {/* <span className={htmltagdesign>'>{"</p>"}</span> */}
                             <SocialLinks 
                             darkmode={darkmode}/>

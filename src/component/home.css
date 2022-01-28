@@ -229,12 +229,14 @@
     font-size: 12pt;
     margin: 20px auto;
     color: gray;
+    padding-right: 10px;
   }
   .otherprofilecontent-dark{
     font-weight: 400;
     font-style: italic;
     font-size: 12pt;
     margin: 20px auto;
+    padding-right: 10px;
     color: #8d8d8d;
   }
   .otherprofilecontent-light::before {

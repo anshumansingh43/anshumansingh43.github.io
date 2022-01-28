@@ -54,7 +54,10 @@
     flex: 0;
     padding: 5px 10px;
     background-color: lightgray;
+    color: black;
     cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.2s;
   }
   .viewall-dark {
     color: white;
@@ -62,12 +65,17 @@
     padding: 5px 10px;
     cursor: pointer;
     border: solid 1px #08fdd8;
+    text-decoration: none;
+    transition: background-color 0.2s;
   }
   .viewall-dark:hover {
-    color: #08fdd8;
+    color: black;
+    background-color: #08fdd8;
+    text-decoration: none;
   }
   .viewall-light:hover {
     background-color: gray;
+    text-decoration: none;
   }
 }
 

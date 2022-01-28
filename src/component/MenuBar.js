@@ -46,7 +46,6 @@ const MenuBar = ({ page,darkmode,setdarkmode }) => {
 
     var menuBar = darkmode?'menuBar menuBarcolor-dark':'menuBar menuBarcolor-light'
 
-
     return (
         <div>
             <div className={menuBar}>
@@ -54,7 +53,7 @@ const MenuBar = ({ page,darkmode,setdarkmode }) => {
                     <span className='mainItem menupadding entry'>
                         <FontAwesomeIcon className={darkmode?'darkmodeicon-dark':'darkmodeicon-light'} 
                         icon={faAdjust} onClick={themechange}></FontAwesomeIcon>
-                        <Link to='/'  class={classtypemainitem} style={{ textDecoration: "none" }}>
+                        <Link to='/'  className={classtypemainitem} style={{ textDecoration: "none" }}>
                             {}
                         </Link>
                     </span>

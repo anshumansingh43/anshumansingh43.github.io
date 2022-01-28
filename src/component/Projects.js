@@ -1,6 +1,8 @@
 import './projects.css'
 import ProjectFrame from './ProjectFrame'
 import { useState } from 'react'
+import covidimage from '../images/projectImage-covidVisualizer.png'
+import HGSimage from '../images/projectImage-HGS.png'
 
 const Projects = ({setPage,darkmode}) => {
     setPage('projects');
@@ -9,36 +11,41 @@ const Projects = ({setPage,darkmode}) => {
             title: "PostCard",
             des:"Social networking site",
             description:["This project was inspired from instagram. Main purpose of this project was to get familiar with React.js"],
-            imageurl: "http://www.vanseodesign.com/blog/wp-content/uploads/2014/12/wpid-high-contrast-light-from-a-window.jpg",
+            
             date: "Dec 2021 - Jan 2022",
-            technologies: "HTML, CSS, Javascript( React )",
-            projectlink: ""
+            technologies: "HTML, CSS, Javascript( React ), Firebase",
+            projectlink: "",
+            status:"ongoing"
         },
         {
             title: "Hide And Go Seek",
             des:"Android Game",
             description:["Installs: 5000+","Rating: 4.6 Star"],
-            imageurl: "http://www.vanseodesign.com/blog/wp-content/uploads/2014/12/wpid-high-contrast-light-from-a-window.jpg",
+            imageurl: HGSimage,
             date: "April 2021 - Present",
             projectlink: "",
-            technologies: "C#, Unity, Blender"
+            technologies: "C#, Unity, Blender",
+            status:"ongoing"
         } 
         ,
         {
             title:"Covid-19 Visualizer",
             des:"Website",
             description:["Covid-19 India data visualizer.","Ability to see changes in cases over a period of time."],
-            imageurl: "http://www.vanseodesign.com/blog/wp-content/uploads/2014/12/wpid-high-contrast-light-from-a-window.jpg",
+            imageurl: covidimage,
             date:"April 2021 - Present",
             projectlink:"",
-            technologies:"HTML, CSS, Javascript( JQuery )"
+            technologies:"HTML, CSS, Javascript( JQuery )",
+            status:""
         },
         {
             title:"FITNIT",
             des:"Fitness App",
             description:["Installs: 10k+","Calories counter app that focuses on Indian lifestyle and food items."],
             projectlink:"",
-            technologies:"Java, SQLite"
+            technologies:"Java, SQLite",
+            status:""
+
         }
 
     ])
@@ -64,6 +71,7 @@ const Projects = ({setPage,darkmode}) => {
                             title={project.title}
                             date={project.date}
                             des={project.des}
+                            status={project.status}
                             description={project.description}
                             technologies={project.technologies}
                             projectlink={project.projectlink}

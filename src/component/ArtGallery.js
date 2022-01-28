@@ -12,7 +12,10 @@ const ArtGallery = ({darkmode}) => {
     <div className='artgallery'>
         <div className='gallery-topbar'>
           <span className={artgalleryfont}>Art Gallery</span>
-          <span className={viewall}>view..all</span>
+          <a href='https://www.instagram.com/anshumansart/' className={viewall} target='_blank'>
+
+          <span >view..all</span>
+          </a>
           
         </div>
         <div className='gallery-images'>
