@@ -1,33 +1,35 @@
 import { Box } from "@mui/material"
 import './projectframe.css'
 
-const ProjectFrame = ({ imageurl, title, des, projectlink, technologies,description,darkmode,status }) => {
+const ProjectFrame = ({ imageurl, title, des, projectlink, technologies, description, darkmode, status }) => {
 
-    var frame = darkmode?'frame framecolor-dark':'frame framecolor-light'
-    var fontcolor = darkmode?'fontcolor-dark':'fontcolor-light'
-    var titlecolor = darkmode?'titlecolor-dark':'titlecolor-light'
+    var frame = darkmode ? 'frame framecolor-dark' : 'frame framecolor-light'
+    var fontcolor = darkmode ? 'fontcolor-dark' : 'fontcolor-light'
+    var titlecolor = darkmode ? 'titlecolor-dark' : 'titlecolor-light'
 
     return (
-        <span className={frame}>
-            <img src={imageurl} alt="project"></img>
-            <span style={{margin:"20px",display:"flex",flexDirection:"column"}}>
-               
-                <span >
-                    <span className={titlecolor} style={{ fontWeight: "bold"}}>{title}</span><span className={fontcolor} style={{fontStyle:"italic"}}> : {des}</span>
+        <a href={projectlink} style={{textDecoration:'none'}} target='_blank'>
+            <span className={frame}>
+                <img src={imageurl} alt="project"></img>
+                <span style={{ margin: "20px", display: "flex", flexDirection: "column" }}>
+
+                    <span >
+                        <span className={titlecolor} style={{ fontWeight: "bold" }}>{title}</span><span className={fontcolor} style={{ fontStyle: "italic" }}> : {des}</span>
+                    </span>
+                    <hr style={{ width: "100%", opacity: "0.4",color:darkmode?'white':'black' }}></hr>
+                    {
+                        description.map((item) => (
+
+                            <span className={fontcolor} >{item}</span>
+                        ))
+                    }
+                    <hr style={{ width: "100%", opacity: "0.4" ,color:darkmode?'white':'black'}}></hr>
+                    <span className={fontcolor} >    Tech: {technologies}</span>
+                    {/* <span className={fontcolor} >    {projectlink}</span> */}
+
                 </span>
-                <hr style={{width:"100%",opacity:"0.4"}}></hr>
-                {
-                    description.map((item) =>(
-
-                        <span className={fontcolor} >{item}</span>
-                    ))
-                }
-                <hr style={{width:"100%",opacity:"0.4"}}></hr>
-                <span className={fontcolor} >    Tech: {technologies}</span>
-                <span className={fontcolor} >    {projectlink}</span>
-
             </span>
-        </span>
+        </a>
 
 
     )
@@ -38,6 +40,6 @@ ProjectFrame.defaultProps =
     title: "none",
     date: "none",
     technologies: "none",
-    projectlink: "none"
+    projectlink: "#"
 }
 export default ProjectFrame

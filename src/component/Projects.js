@@ -25,7 +25,7 @@ const Projects = ({setPage,darkmode}) => {
             description:["Installs: 5000+","Rating: 4.6 Star"],
             imageurl: HGSimage,
             date: "April 2021 - Present",
-            projectlink: "",
+            projectlink: "https://play.google.com/store/apps/details?id=com.ThirteenEightySIx.HideAndGoSeek",
             technologies: "C#, Unity, Blender",
             status:"ongoing"
         } 
@@ -36,7 +36,7 @@ const Projects = ({setPage,darkmode}) => {
             description:["Covid-19 India data visualizer.","Ability to see changes in cases over a period of time."],
             imageurl: covidimage,
             date:"April 2021 - Present",
-            projectlink:"",
+            projectlink:"https://ironanshumantoo.github.io",
             technologies:"HTML, CSS, Javascript( JQuery )",
             status:""
         },
@@ -45,7 +45,7 @@ const Projects = ({setPage,darkmode}) => {
             des:"Fitness App",
             description:["Installs: 10k+","Calories counter app that focuses on Indian lifestyle and food items."],
             imageurl: FITNITimage,
-            projectlink:"",
+            projectlink:"https://play.google.com/store/apps/details?id=com.fitnit.fitnitv1",
             technologies:"Java, SQLite",
             status:""
 
