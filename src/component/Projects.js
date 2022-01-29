@@ -3,6 +3,8 @@ import ProjectFrame from './ProjectFrame'
 import { useState } from 'react'
 import covidimage from '../images/projectImage-covidVisualizer.png'
 import HGSimage from '../images/projectImage-HGS.png'
+import FITNITimage from '../images/projectImage-fitnit.png'
+
 
 const Projects = ({setPage,darkmode}) => {
     setPage('projects');
@@ -42,6 +44,7 @@ const Projects = ({setPage,darkmode}) => {
             title:"FITNIT",
             des:"Fitness App",
             description:["Installs: 10k+","Calories counter app that focuses on Indian lifestyle and food items."],
+            imageurl: FITNITimage,
             projectlink:"",
             technologies:"Java, SQLite",
             status:""
