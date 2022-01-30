@@ -2,6 +2,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {  faCss3Alt, faHtml5, faJava, faJs, faReact } from '@fortawesome/free-brands-svg-icons'
 import './skills.css'
 import { faDatabase } from '@fortawesome/free-solid-svg-icons'
+import { Link } from 'react-router-dom'
 
 const Skills = ({ setPage,darkmode }) => {
     setPage('skills')
@@ -30,13 +31,19 @@ const Skills = ({ setPage,darkmode }) => {
                         </div>
                         <div className={paragraph}>
                             <p>
-                               Over the years i have aquired many skills. But the ones that define me are java javascript .
-                               I'm a front end developer mainly, but i also work on full stack with companies.
+                               With my time at National Institute Of Technology Karnataka pursuing M.tech degree I worked on projects that used 
+                               technologies like python, C++, C#, Java, javascript, other web technologies. I have also built android apps, games, websites. By working on projects and also working full time in software industry I have 
+                               acquired skills necessary for building and maintaining web applications.
                             </p>
                             <p>
-                                aguohdfa pii ejklao dkdvoiasofds lp jflksdvs djls ioadsf dsklodas sd se klsdj dsi lfkdsj
-                                asdohfs dkhasdioa;dhflksj sd;lh kf dshlahf ;sdssd;lkd s ld;kfosahessdkl
+                                My area of interest lies in web development tech but not limited to Java, javascript( ReactJs ), HTML/CSS. Since I am a fast learner
+                                I always look forward to learn new technologies to add to my arsenal.
                             </p>
+                            <p>
+                                I also have java full stack developer experience at Aryaka Networks where I coordinated across disciplines to introduce features to 
+                                web application.
+                            </p>
+                            <p>Visit my <a href='https://linkedin.com/in/ironanshuman'target='_blank'>linkedin</a> profile to reach out to me or just <Link to='/Contact'>contact me.</Link></p>
                         </div>
 
                     </div>
@@ -72,7 +79,8 @@ const Skills = ({ setPage,darkmode }) => {
                         </div>
                         <div className={workex}>
                             <div className={titlecolor} style={{fontSize:"24px",fontWeight:'700' }}>Full Stack Developer</div>
-                            <div className={fontcolor} style={{fontSize:"18px",fontWeight:"500"}}>Aryaka Networks</div>
+                            <br></br>
+                            <div className={fontcolor} style={{fontSize:"18px",fontWeight:"300"}}>Aryaka Networks</div>
                             <div className={fontcolor}>2020-Present</div>
                             <div className={fontcolor} style={{fontWeight:"300", marginTop:"20px"}}>SD-WAN company that provides software-defined network connectivity
                                  and application delivery to globally distributed enterprises</div>
