@@ -9,16 +9,7 @@ import FITNITimage from '../images/projectImage-fitnit.png'
 const Projects = ({setPage,darkmode}) => {
     setPage('projects');
     const [projects, setprojects] = useState([
-        {
-            title: "PostCard",
-            des:"Social networking site",
-            description:["This project was inspired from instagram. Main purpose of this project was to get familiar with React.js"],
-            
-            date: "Dec 2021 - Jan 2022",
-            technologies: "HTML, CSS, Javascript( React ), Firebase",
-            projectlink: "",
-            status:"ongoing"
-        },
+        
         {
             title: "Hide And Go Seek",
             des:"Android Game",
@@ -49,6 +40,14 @@ const Projects = ({setPage,darkmode}) => {
             technologies:"Java, SQLite",
             status:""
 
+        },
+        {
+            title: "PostCard( Ongoing )",
+            des:"Social networking site",
+            description:["This project was inspired from instagram. Main purpose of this project was to get familiar with React.js"],
+            date: "Dec 2021 - Jan 2022",
+            technologies: "HTML, CSS, Javascript( React ), Firebase",
+            status:"ongoing"
         }
 
     ])
