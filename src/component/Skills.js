@@ -15,6 +15,7 @@ const Skills = ({ setPage,darkmode }) => {
     var fontcolor = darkmode?'fontcolor-dark':'fontcolor-light'
     var titlecolor = darkmode?'titlecolor-dark':'titlecolor-light'
     var workex = darkmode?'workex-dark':'workex-light'
+    var contactLink = darkmode?'contact-link-dark':'contact-link-light'
     return (
         <div>
             <div className={htmltagdesign + ' tagtop'}>
@@ -43,7 +44,8 @@ const Skills = ({ setPage,darkmode }) => {
                                 I also have java full stack developer experience at Aryaka Networks where I coordinated across disciplines to introduce features to 
                                 web application.
                             </p>
-                            <p>Visit my <a href='https://linkedin.com/in/ironanshuman'target='_blank'>linkedin</a> profile to reach out to me or just <Link to='/Contact'>contact me.</Link></p>
+                            <p>Visit my <a className={iconcolor} href='https://linkedin.com/in/ironanshuman'target='_blank'>linkedin</a> 
+                              {' profile to reach out to me or just'} <Link to='/Contact' className={iconcolor}>contact me.</Link></p>
                         </div>
 
                     </div>
