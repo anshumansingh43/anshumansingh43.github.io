@@ -33,11 +33,11 @@ const Skills = ({ setPage,darkmode }) => {
                         <div className={paragraph}>
                             <p>
                                With my time at National Institute Of Technology Karnataka pursuing M.tech degree I worked on projects that used 
-                               technologies like python, C++, C#, Java, javascript, other web technologies. I have also built android apps, games, websites. By working on projects and also working full time in software industry I have 
+                               technologies like python, C#, Java, javascript, other web technologies. I have also built android apps, games, websites. By working on projects and also working full time in software industry I have 
                                acquired skills necessary for building and maintaining web applications.
                             </p>
                             <p>
-                                My area of interest lies in web development tech but not limited to Java, javascript( ReactJs ), HTML/CSS. Since I am a fast learner
+                                My area of interest lies in web development tech but not limited to Java, javascript( ReactJs ), HTML/CSS, mySQL. Since I am a fast learner
                                 I always look forward to learn new technologies to add to my arsenal.
                             </p>
                             <p>
