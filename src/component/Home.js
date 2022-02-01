@@ -30,7 +30,7 @@ const Home = ({ setPage, darkmode }) => {
                             {/* <span className='otherprofilecontent' style={{ maxWidth: "300px", fontWeight: "500", fontSize: "20px", marginBottom: '19px' }}>Founder: FITNIT</span> */}
 
                             {/* <span className={htmltagdesign>'>{"<p>"}</span> */}
-                            <span className={otherprofilecontent} >I am a problem solver, a passionate software engineer with high attention to detail, not shy of learning new technologies. I have a passion for building products that impact the masses.</span>
+                            <span className={otherprofilecontent} >I am a passionate software engineer that doesn't give up until a problem is solved. Not shy of learning new technologies. I have a passion for building products that impact the masses.</span>
                             {/* <span className={htmltagdesign>'>{"</p>"}</span> */}
                             <SocialLinks 
                             darkmode={darkmode}/>
