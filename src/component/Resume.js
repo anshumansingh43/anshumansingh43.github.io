@@ -27,7 +27,7 @@ const Resume = ({ setPage }) => {
             {/* parsed by pdf to html parser and then html to jsx */}
 
             <div >
-                <Document file={require('./cv_sde_g_lcode.pdf')} style={{ width:{width},height:"auto" }}>
+                <Document file={require('./dummy.pdf')} style={{ width:{width},height:"auto" }}>
                     <center>
                         <Page pageNumber={1}  style={{width:"100px"}}></Page>
                     </center>
