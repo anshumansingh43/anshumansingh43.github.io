@@ -13,7 +13,7 @@ const Projects = ({setPage,darkmode}) => {
         {
             title: "Hide And Go Seek",
             des:"Android Game",
-            description:["Installs: 10,000+","Rating: 4.6 Star"],
+            description:["Installs: 10,000+","Rating: 4.4 Star"],
             imageurl: HGSimage,
             date: "April 2021 - Present",
             projectlink: "https://play.google.com/store/apps/details?id=com.ThirteenEightySIx.HideAndGoSeek",
