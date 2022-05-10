@@ -22,7 +22,7 @@ const SocialLinks = ({darkmode}) => {
             <a href="https://www.youtube.com/cubed" id="youtubeIcon" target="_blank" rel="noreferrer">
             <FontAwesomeIcon className={social_link_effect}  icon={faYoutube} size="lg" />
             </a>
-            <a href="https://www.instagram.com/anshuman_s_i_n_g_h_/" id="instagramIcon" target="_blank" rel="noreferrer">
+            <a href="https://www.instagram.com/anshuman.singh.43/" id="instagramIcon" target="_blank" rel="noreferrer">
             <FontAwesomeIcon className={social_link_effect}  icon={faInstagram} size="lg" />
             </a>
             <a href="https://www.worldcubeassociation.org/persons/2014SING04"id="wcaIcon" target="_blank" rel="noreferrer">
