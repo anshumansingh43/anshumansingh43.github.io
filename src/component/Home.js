@@ -30,8 +30,8 @@ const Home = ({ setPage, darkmode }) => {
                             {/* <span className='otherprofilecontent' style={{ maxWidth: "300px", fontWeight: "500", fontSize: "20px", marginBottom: '19px' }}>Founder: FITNIT</span> */}
 
                             {/* <span className={htmltagdesign>'>{"<p>"}</span> */}
-                            <span className={otherprofilecontent} >I am a software engineer at <a href='https://www.freshworks.com/' class='links' style={{fontWeight:'bold',color:'white'}}>Freshworks</a>. Creator of fitness app 
-                             <a href='https://play.google.com/store/apps/details?id=com.fitnit.fitnitv1' class='links' style={{fontWeight:'bold',color:'white'}}> FITNIT</a> and mobile device game <a href='https://play.google.com/store/apps/details?id=com.ThirteenEightySIx.HideAndGoSeek' class='links' style={{fontWeight:'bold',color:'white'}}>Hide And Go Seek</a>. I have a passion for building products that impact the masses.</span>
+                            <span className={otherprofilecontent} >I am a software engineer at <a href='https://www.freshworks.com/' target="_blank" class='links' style={{fontWeight:'bold',color:'white'}} >Freshworks</a>. Creator of fitness app 
+                             <a href='https://play.google.com/store/apps/details?id=com.fitnit.fitnitv1' target="_blank" class='links' style={{fontWeight:'bold',color:'white'}}> FITNIT</a> and mobile device game <a href='https://play.google.com/store/apps/details?id=com.ThirteenEightySIx.HideAndGoSeek' target="_blank" class='links' style={{fontWeight:'bold',color:'white'}}>Hide And Go Seek</a>. I have a passion for building products that impact the masses.</span>
                             {/* <span className={htmltagdesign>'>{"</p>"}</span> */}
                             <SocialLinks 
                             darkmode={darkmode}/>
