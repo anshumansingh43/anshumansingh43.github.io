@@ -80,12 +80,18 @@ const Skills = ({ setPage,darkmode }) => {
                             
                         </div>
                         <div className={workex}>
+                            <div className={titlecolor} style={{fontSize:"24px",fontWeight:'700' }}>Software Engineer</div>
+                            <br></br>
+                            <div className={fontcolor} style={{fontSize:"18px",fontWeight:"300"}}>Freshworks</div>
+                            <div className={fontcolor}>2022-Present</div>
+                        </div>
+                        <div className={workex}>
                             <div className={titlecolor} style={{fontSize:"24px",fontWeight:'700' }}>Full Stack Developer</div>
                             <br></br>
                             <div className={fontcolor} style={{fontSize:"18px",fontWeight:"300"}}>Aryaka Networks</div>
-                            <div className={fontcolor}>2020-Present</div>
-                            <div className={fontcolor} style={{fontWeight:"300", marginTop:"20px"}}>SD-WAN company that provides software-defined network connectivity
-                                 and application delivery to globally distributed enterprises</div>
+                            <div className={fontcolor}>2020-2021</div>
+                            {/* <div className={fontcolor} style={{fontWeight:"300", marginTop:"20px"}}>SD-WAN company that provides software-defined network connectivity */}
+                                 {/* and application delivery to globally distributed enterprises</div> */}
                         </div>
                     </div>
                 </div>
