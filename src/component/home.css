@@ -805,6 +805,14 @@
     justify-content: center;
     background-color: #1d1d1d;
   }
+  .HomepageDescLink-light{
+  
+    color:black;
+  }
+  .HomepageDescLink-Dark{
+  
+    color:white;
+  }
   .homecontent {
     display: flex;
     flex-direction: column;
