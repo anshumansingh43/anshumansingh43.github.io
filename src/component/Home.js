@@ -31,7 +31,10 @@ const Home = ({ setPage, darkmode }) => {
 
                             {/* <span className={htmltagdesign>'>{"<p>"}</span> */}
                             <span className={otherprofilecontent} >I am a software engineer at <a className={darkmode?'HomepageDescLink-Dark':'HomepageDescLink-light'} href='https://www.freshworks.com/' target="_blank"  style={{fontWeight:'bold'}} >Freshworks</a>. Creator of fitness app 
-                             <a className={darkmode?'HomepageDescLink-Dark':'HomepageDescLink-light'} href='https://play.google.com/store/apps/details?id=com.fitnit.fitnitv1' target="_blank" style={{fontWeight:'bold'}}> FITNIT</a> and mobile device game <a href='https://play.google.com/store/apps/details?id=com.ThirteenEightySIx.HideAndGoSeek' className={darkmode?'HomepageDescLink-Dark':'HomepageDescLink-light'} target="_blank" style={{fontWeight:'bold'}}>Hide And Go Seek</a>. I have a passion for building products that impact the masses.</span>
+                             <a className={darkmode?'HomepageDescLink-Dark':'HomepageDescLink-light'} href='https://play.google.com/store/apps/details?id=com.fitnit.fitnitv1' target="_blank" style={{fontWeight:'bold'}}> FITNIT</a> and mobile device game <a href='https://play.google.com/store/apps/details?id=com.ThirteenEightySIx.HideAndGoSeek' className={darkmode?'HomepageDescLink-Dark':'HomepageDescLink-light'} target="_blank" style={{fontWeight:'bold'}}>Hide And Go Seek</a>. I have a passion for building products that impact the masses.
+                            <br/>M.tech @ NIT Karnataka
+                            <br/>B.tech @ University Of Delhi
+                            </span>
                             {/* <span className={htmltagdesign>'>{"</p>"}</span> */}
                             <SocialLinks 
                             darkmode={darkmode}/>
