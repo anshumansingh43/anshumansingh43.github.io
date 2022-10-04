@@ -1,7 +1,7 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {  faCss3Alt, faHtml5, faJava, faJs, faReact } from '@fortawesome/free-brands-svg-icons'
 import './skills.css'
-import { faDatabase } from '@fortawesome/free-solid-svg-icons'
+import { faCloud, faDatabase, faLeaf } from '@fortawesome/free-solid-svg-icons'
 import { Link } from 'react-router-dom'
 
 const Skills = ({ setPage,darkmode }) => {
@@ -53,7 +53,7 @@ const Skills = ({ setPage,darkmode }) => {
                         <div className='soft-skills'>
                             <span className='soft-skills-item'>
                                 <center>
-                                    <FontAwesomeIcon icon={faJava} className={iconcolor}></FontAwesomeIcon>
+                                    <FontAwesomeIcon icon={faJava} size='lg'className={iconcolor}></FontAwesomeIcon>
                                     </center>
                                 <span className={softskillsfontcolor}>Java</span>
                             </span>
@@ -62,20 +62,20 @@ const Skills = ({ setPage,darkmode }) => {
                                 <span className={softskillsfontcolor}>javascript</span>
                             </span>
                             <span className='soft-skills-item'>
-                                <FontAwesomeIcon icon={faReact}className={iconcolor}></FontAwesomeIcon>
-                                <span className={softskillsfontcolor}>react</span>
+                                <FontAwesomeIcon icon={faLeaf} size ='lg' className={iconcolor}></FontAwesomeIcon> 
+                                <span className={softskillsfontcolor}>SpringBoot</span>
                             </span>
                             <span className='soft-skills-item'>
                                 <FontAwesomeIcon icon={faDatabase} className={iconcolor}></FontAwesomeIcon>
                                 <span className={softskillsfontcolor}>sql</span>
                             </span>
                             <span className='soft-skills-item'>
-                                <FontAwesomeIcon icon={faHtml5} size='lg' className={iconcolor}></FontAwesomeIcon>
-                                <span className={softskillsfontcolor}>html</span>
+                                <FontAwesomeIcon icon={faCloud} size='lg' className={iconcolor}></FontAwesomeIcon>
+                                <span className={softskillsfontcolor}>AWS</span>
                             </span>
                             <span className='soft-skills-item'>
                                 <FontAwesomeIcon icon={faCss3Alt} size='lg' className={iconcolor}></FontAwesomeIcon>
-                                <span className={softskillsfontcolor}>css</span>
+                                <span className={softskillsfontcolor}>html/css</span>
                             </span>
                             
                         </div>
